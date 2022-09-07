@@ -1,0 +1,57 @@
+.wrapper {
+    height: var(--default-layout-header-height);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--white);
+    position: fixed;
+    // z-index: 10;
+    .inner {
+        height: 100%;
+        width: var(--default-layout-width);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 24px 0 24px;
+    }
+}
+
+.more-btn {
+    font-size: 2rem;
+    margin-left: 28px;
+    background-color: transparent;
+    padding: 8px;
+    z-index: 9;
+    cursor: -webkit-grabbing;
+}
+//menu
+
+.menu-items {
+    width: 224px;
+}
+
+// Khi đã login
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.message-btn {
+    margin-left: 16px;
+    font-size: 2.2rem;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.user-pictrue {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 24px;
+    cursor: pointer;
+}
